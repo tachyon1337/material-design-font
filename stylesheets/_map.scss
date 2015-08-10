@@ -1,0 +1,25 @@
+
+/// Roboto Font Map
+/// @access public
+$Roboto: (
+        regular:'robotoregular',
+        italic:'robotoitalic',
+        medium:'robotomedium',
+        medium-italic:'robotomedium_italic',
+        bold:'robotobold',
+        bold-italic:'robotobold_italic',
+        black:'robotoblack',
+        black-italic:'robotoblack_italic',
+        light:'robotolight',
+        light-italic:'robotolight_italic',
+        thin:'robotothin',
+        thin-italic:'robotothin_italic',
+        condensed:(
+                regular:'roboto_condensedregular',
+                italic:'roboto_condenseditalic',
+                light:'roboto_condensedlight',
+                light-italic:'roboto_condensedlight_italic',
+                bold:'roboto_condensedbold',
+                bold-italic:'roboto_condensedbold_italic'
+        )
+);

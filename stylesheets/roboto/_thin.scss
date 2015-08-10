@@ -1,0 +1,31 @@
+
+
+/// roboto thin
+/// @access public
+@mixin roboto-thin() {
+
+  @font-face {
+    font-family: 'robotothin';
+    src: url('fonts/roboto-thin-webfont.eot');
+    src: url('fonts/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/roboto-thin-webfont.woff2') format('woff2'),
+    url('fonts/roboto-thin-webfont.woff') format('woff'),
+    url('fonts/roboto-thin-webfont.ttf') format('truetype'),
+    url('fonts/roboto-thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'robotothin_italic';
+    src: url('fonts/roboto-thinitalic-webfont.eot');
+    src: url('fonts/roboto-thinitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/roboto-thinitalic-webfont.woff2') format('woff2'),
+    url('fonts/roboto-thinitalic-webfont.woff') format('woff'),
+    url('fonts/roboto-thinitalic-webfont.ttf') format('truetype'),
+    url('fonts/roboto-thinitalic-webfont.svg#robotothin_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+}

@@ -1,0 +1,31 @@
+
+
+/// roboto medium
+/// @access public
+@mixin roboto-medium(){
+
+  @font-face {
+    font-family: 'robotomedium';
+    src: url('fonts/roboto-medium-webfont.eot');
+    src: url('fonts/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/roboto-medium-webfont.woff2') format('woff2'),
+    url('fonts/roboto-medium-webfont.woff') format('woff'),
+    url('fonts/roboto-medium-webfont.ttf') format('truetype'),
+    url('fonts/roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'robotomedium_italic';
+    src: url('fonts/roboto-mediumitalic-webfont.eot');
+    src: url('fonts/roboto-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/roboto-mediumitalic-webfont.woff2') format('woff2'),
+    url('fonts/roboto-mediumitalic-webfont.woff') format('woff'),
+    url('fonts/roboto-mediumitalic-webfont.ttf') format('truetype'),
+    url('fonts/roboto-mediumitalic-webfont.svg#robotomedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+}

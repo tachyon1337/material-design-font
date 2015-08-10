@@ -1,0 +1,47 @@
+@import "roboto/regular";
+@import "roboto/medium";
+@import "roboto/bold";
+@import "roboto/black";
+@import "roboto/light";
+@import "roboto/thin";
+@import "roboto/condensed-regular";
+@import "roboto/condensed-bold";
+@import "roboto/condensed-light";
+
+
+
+/// roboto regular,medium and bold
+/// @access public
+@mixin roboto-standard() {
+  @include roboto-regular();
+  @include roboto-medium();
+  @include roboto-bold();
+}
+
+/// roboto standard fonts + light,thin and black
+/// @access public
+@mixin roboto-extended() {
+  @include roboto-standard();
+  @include roboto-light();
+  @include roboto-thin();
+  @include roboto-black();
+}
+
+/// roboto condensed regular,light bold
+/// @access public
+@mixin roboto-condensed() {
+  @include roboto-condensed-regular();
+  @include roboto-condensed-light();
+  @include roboto-condensed-bold();
+}
+
+
+/// full roboto font suite
+/// @access public
+@mixin roboto() {
+  @include roboto-extended();
+  @include roboto-condensed();
+}
+
+
+

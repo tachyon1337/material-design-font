@@ -1,0 +1,29 @@
+
+
+/// roboto regular
+/// @access public
+@mixin roboto-regular(){
+
+  @font-face {
+    font-family: 'robotoregular';
+
+    src:url('fonts/Roboto-Regular.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+  @font-face {
+    font-family: 'robotoitalic';
+    src: url('fonts/roboto-italic-webfont.eot');
+    src: url('fonts/roboto-italic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/roboto-italic-webfont.woff2') format('woff2'),
+    url('fonts/roboto-italic-webfont.woff') format('woff'),
+    url('fonts/roboto-italic-webfont.ttf') format('truetype'),
+    url('fonts/roboto-italic-webfont.svg#robotoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+}
